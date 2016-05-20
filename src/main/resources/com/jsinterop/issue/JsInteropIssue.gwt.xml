@@ -5,6 +5,7 @@
     <inherits name='com.google.gwt.user.User'/>
     <inherits name="com.google.gwt.logging.Logging"/>
 
+    <inherits name="gwt.material.design.GwtMaterialWithJQueryDebug"/>
     <inherits name="com.workingflows.js.jquery.JQuery"/>
 
     <!-- Specify the paths for translatable code -->

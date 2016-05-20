@@ -119,6 +119,7 @@
           <style>PRETTY</style>
           <compileReport>true</compileReport>
           <compilerMetrics>true</compilerMetrics>
+          <!--<optimizationLevel>0</optimizationLevel>-->
 
           <runTarget>index.html</runTarget>
           <modules>
@@ -178,6 +179,12 @@
       <artifactId>gwt-dev</artifactId>
       <version>${gwt.version}</version>
       <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.github.gwtmaterialdesign</groupId>
+      <artifactId>gwt-material</artifactId>
+      <version>${gwt-material.version}</version>
     </dependency>
 
     <!-- Testing -->
