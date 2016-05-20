@@ -30,8 +30,8 @@ public class JsInteropIssueEntry implements EntryPoint {
         }, $button);
 
         // Trigger context-menu event
-        $button.contextmenu(e -> {
-            $button.trigger("context-menu", new Object[]{e});
+        $button.contextmenu(mouseEvent -> {
+            $button.trigger("context-menu", new Object[]{mouseEvent});
             return false;
         });
     }
